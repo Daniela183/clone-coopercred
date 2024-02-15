@@ -1,0 +1,38 @@
+:root{
+    --cor-fundo:#012810;
+}
+*{
+    box-sizing: border-box;
+    
+}
+header,nav,footer{
+    background-color:var(--cor-fundo);
+   
+}
+header{
+    height: 100px;
+}
+.offcanvas-body{
+    background-color:var(--cor-fundo);
+}
+.redondo{
+    border-radius:50px ;
+}
+footer{
+    color:white;
+}
+figure{
+    margin:0;
+    padding: 0;
+    border: 0;
+   
+}
+#imgrodape{
+    width: 35%;
+    height: 35%;
+}
+section{
+    margin-top:20px;
+    position: relative;
+    margin-top: 5%;
+}
